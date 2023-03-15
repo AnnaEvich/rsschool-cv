@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    place-items: center;
+    flex-direction: row;
+}
+@media (max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+.photo{
+    width: 20vw;
+    height: 20vw;
+    margin: 0 auto;
+    position: center;
+    background-image: url("upload/cv.png");
+    border-radius: 50%;
+}
