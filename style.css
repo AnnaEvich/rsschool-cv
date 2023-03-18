@@ -23,7 +23,7 @@
     width: 40%;
     text-align: left;
     padding: 1vw;
-    background-color: lightcoral;
+    background-color: #ffffff;
 }
 ul {
     margin-top: 0.5vw;
@@ -41,8 +41,17 @@ h2{
 
 .right-block{
     width: 60%;
-    background-color: cornflowerblue;
-    text-align: center;
+    background-color: #ffffff;
+    text-align: left;
+}
+h1{
+    text-align: left;
+    margin-bottom: 2vw;
+}
+.second-h2{
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 1vw;
 }
 .photo{
     max-width: 20vw;
