@@ -1,0 +1,81 @@
+.body{
+    font-size: calc(1em + 1vh);
+    font-weight: bold;
+    /*font-style: italic;*/
+}
+.container{
+    display: flex;
+    position: center;
+    flex-direction: row;
+    max-width: 70vw;
+    border: 1px solid #000000;
+    margin: auto;
+}
+
+
+@media (max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+.left-block{
+    width: 40%;
+    text-align: left;
+    padding: 1vw;
+    background-color: #ffffff;
+}
+ul {
+    margin-top: 0.5vw;
+    margin-left: 0;
+    padding-left: 1vw;
+}
+li{
+    list-style-type:none;
+}
+h2{
+    margin-left: 0;
+    padding-left: 1vw;
+    margin-bottom: 0;
+}
+
+.right-block{
+    width: 60%;
+    background-color: #ffffff;
+    text-align: left;
+}
+h1{
+    text-align: left;
+    margin-bottom: 2vw;
+}
+.second-h2{
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 1vw;
+}
+.photo{
+    max-width: 20vw;
+    border-radius: 50%;
+    margin-top:0;
+    margin-right: 0;
+}
+.cv-photo{
+    max-width: 15vw;
+    border-radius: 50%;
+    margin-left: 4vw;
+}
+.h1{
+    text-align: center;
+}
+.personal-information{
+    max-width: 40vw;
+    max-height: 30vh;
+}
+.education{
+    max-width: 40vw;
+    max-height: 30vh;
+}
+.about-me{
+    max-width: 40vw;
+    max-height: 30vh;
+}
